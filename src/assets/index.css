@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'muli-regular';
+  src: url('./fonts/Muli-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'muli-semibold';
+  src: url('./fonts/Muli-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'muli-extrabold';
+  src: url('./fonts/Muli-ExtraBold.ttf');
+}
+
+:root {
+  /* Colors */
+  --azure-radiance: #008fff;
+  --black-haze: #eaeded;
+  --boulder: #777;
+  --crimson: #e31524;
+  --cod-gray: #121212;
+  --coral-red: #ff3c3c;
+  --cyan: #00e6f0;
+  --dodger-blue: #3483FA;
+  --lightning-yellow: #FAC72C;
+  --malachite: #00d75a;
+  --mine-shaft: #333;
+  --rose: #FF197A;
+  --silver: #ccc;
+  --turbo: #fce300;
+  --wild-sand: #f6f5f5;
+  --white: #fff;
+
+  /* Fonts */
+  --font-regular: 'muli-regular', arial, sans-serif;
+  --font-bold: 'muli-semibold', arial, sans-serif;
+  --font-bolder: 'muli-extrabold', arial, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2vmin;
+  font-family: var(--font-regular);
+  margin: 0;
+  padding: 0;
+  overflow: hidden auto;
+  min-height: 100vh;
+}
